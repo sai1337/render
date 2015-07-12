@@ -7,7 +7,7 @@ function onValChange(i) {
                 $(".msg").hide();
                 $("#msg" + r).fadeIn(400, "linear");
             } else {
-                alert("please enter a number between 0 to 11");
+                alert("please enter a number from 1 to 10");
             }
 
         } else {
